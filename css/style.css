@@ -49,6 +49,8 @@ body {
 .heading-primary {
   color: #ffffff;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
   backface-visibility: hidden;
   padding-bottom: 6rem; }
   .heading-primary--main {

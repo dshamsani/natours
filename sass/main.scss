@@ -1,14 +1,21 @@
+// Abstract part
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
+// Base part
 @import "base/animations";
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
 
+// Components part
 @import "components/button";
+@import "components/composition";
 
+// Layout part
 @import "layout/header";
+@import "layout/grid";
 
+// Pages part
 @import "pages/home";
